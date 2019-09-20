@@ -1,0 +1,13 @@
+[package]
+name = "rtlsample"
+version = "0.1.0"
+authors = ["Azure Crimson <azurecrimson@azurecrimson.com>"]
+edition = "2018"
+
+[profile.dev]
+opt-level = 0
+
+[dependencies]
+#rtlsdr_sys = "1.1.2"
+#libc = "0.2.62"
+rtlsdr_mt = { git = "https://github.com/AzureCrimson/rtlsdr_mt.rs" }
